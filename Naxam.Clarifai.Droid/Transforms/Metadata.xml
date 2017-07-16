@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='ClusterModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">ClusterOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='ColorModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">ColorOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='ConceptModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">ConceptOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='DemographicsModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">DemographicsOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='EmbeddingModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">EmbeddingOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='FaceDetectionModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">FaceDetectionOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='FocusModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">FocusOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='LogoModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">LogoOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='UnknownModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">UnknownOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/class[@name='VideoModel']/method[@name='outputInfo' and count(parameter)=0]" name="managedName">VideoOutputInfo</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='Model.Builder']" name="visibility">public</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='ClusterModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='ColorModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='ConceptModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='DemographicsModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='EmbeddingModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='FaceDetectionModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='FocusModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='LogoModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='UnknownModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto.model']/interface[@name='VideoModel.Builder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Clarifai2.Dto.Model.Model</attr>
+	<attr path="/api/package[@name='clarifai2.dto']/class[@name='Radius.Adapter']/method[@name='typeToken' and count(parameter)=0]" name="visibility">protected</attr>
+	<remove-node path="/api/package[@name='clarifai2.dto.input']/class[@name='ClarifaiURLImage']/method[@name='withCrop' and count(parameter)=1 and parameter[1][@type='clarifai2.dto.input.Crop']]" />
+	<remove-node path="/api/package[@name='clarifai2.dto']/interface[@name='HasClarifaiID']/method[@name='id' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='clarifai2.dto.input']/class[@name='ClarifaiFileImage']/method[@name='withCrop' and count(parameter)=1 and parameter[1][@type='clarifai2.dto.input.Crop']]" />
+	<add-node path="/api/package[@name='clarifai2.api.request']/class[@name='ClarifaiRequest.Adapter']">
+		<method abstract="true" deprecated="not deprecated" final="false" name="executeSync" native="false" return="clarifai2.api.ClarifaiResponse&lt;RESULT&gt;" static="false" synchronized="false" visibility="public">
+		</method>
+	</add-node>
+</metadata>
