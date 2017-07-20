@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Clarifai.Droid</id>
+        <version>2.2.10</version>
+        <description>Xamarin Binding Library - Clarifai for Android</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Clarifai for Android</title>
+        <releaseNotes>BrainTree Android SDK v2.2.10</releaseNotes>
+        <summary>Xamarin Binding Library - Clarifai for Android</summary>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/clarifai-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, clarifai</tags>
+        <dependencies>
+            <dependency id="Naxam.SquareUp.OkHttp3" version="3.6.0" />
+            <dependency id="Naxam.Google.Gson" version="2.8.0" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Clarifai.Droid/bin/Release/Naxam.Clarifai.Droid.dll" target="lib/MonoAndroid10/Naxam.Clarifai.Droid.dll" />
+    </files>
+</package>

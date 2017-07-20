@@ -13,7 +13,7 @@ using Android.Widget;
 using Java.IO;
 using Android.Graphics;
 
-namespace clarifi
+namespace ClarifaiQs
 {
    public class ClarifaiUtil
     {

@@ -30,7 +30,7 @@ using Android.Support.V7.Widget;
 using Android.Graphics;
 using Java.Net;
 using Android.Support.Design.Widget;
-using clarifi;
+using ClarifaiQs;
 
 namespace ClarifaiQs
 {

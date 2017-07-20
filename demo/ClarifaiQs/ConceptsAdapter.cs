@@ -12,7 +12,7 @@ using Android.Widget;
 using Android.Support.V7.Widget;
 using Clarifai2.Dto.Prediction;
 
-namespace clarifi
+namespace ClarifaiQs
 {
     class ConceptsAdapter : RecyclerView.Adapter
     {
@@ -54,7 +54,7 @@ namespace clarifi
 
         public void Bind(Concept concept) {
 
-            label.Text = string.IsNullOrWhiteSpace(concept.Name()) ? "Concept.Id()" : concept.Name();
+            label.Text = string.IsNullOrWhiteSpace(concept.Name()) ? concept.Id() : concept.Name();
             probability.Text = concept.Value().ToString();
         }
     }
